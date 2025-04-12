@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Form and Value</title>
+    <link>http://localhost:1313/formandvalue-site/</link>
+    <description>Recent content on Form and Value</description>
+    <generator>Hugo -- 0.145.0</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/formandvalue-site/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>http://localhost:1313/formandvalue-site/series/0/0.1-form-and-value/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/formandvalue-site/series/0/0.1-form-and-value/</guid>
+      <description>&lt;p&gt;from pathlib import Path&lt;/p&gt;
+&lt;h1 id=&#34;define-the-output-path&#34;&gt;Define the output path&lt;/h1&gt;
+&lt;p&gt;output_path = Path(&amp;quot;/mnt/data/0.1-form-and-value.md&amp;quot;)&lt;/p&gt;
+&lt;h1 id=&#34;create-the-hugo-compatible-markdown-content-with-katex-formatting&#34;&gt;Create the Hugo-compatible Markdown content with KaTeX formatting&lt;/h1&gt;
+&lt;h2 id=&#34;math-true&#34;&gt;markdown_content = &amp;ldquo;&amp;rdquo;&amp;quot;&amp;mdash;
+title: &amp;ldquo;0.1 — Form and Value&amp;rdquo;
+weight: 1
+math: true&lt;/h2&gt;
+&lt;h2 id=&#34;goals-of-this-lesson&#34;&gt;Goals of this Lesson&lt;/h2&gt;
+&lt;p&gt;In this section, we will explore:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The difference between Form and Value in mathematics&lt;/li&gt;
+&lt;li&gt;Why Form matters even when the Value stays the same&lt;/li&gt;
+&lt;li&gt;How this distinction appears in both basic arithmetic and more advanced ideas&lt;/li&gt;
+&lt;li&gt;A mindset that helps you see ideas not only for what they are, but for everything they could be&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;Most people encounter numbers in daily life without needing to think about them very deeply. You care how much something costs, how many people are in a room, how fast a car is going. In those moments, what matters is the &lt;strong&gt;Value&lt;/strong&gt;.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

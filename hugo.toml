@@ -1,0 +1,32 @@
+baseURL = "https://FormAndValue.com/"
+languageCode = "en-us"
+title = "Form and Value"
+theme = "PaperMod"
+
+# Enable math support
+[params]
+  math = true
+  defaultTheme = "auto"
+  ShowReadingTime = true
+  ShowBreadCrumbs = true
+  ShowPostNavLinks = true
+  ShowCodeCopyButtons = true
+  homeInfoParams = { Title = "Form and Value", Content = "Mathematics as structure, movement, and meaning. Essays that unfold from intuition to abstraction." }
+
+# Menu configuration
+[menu]
+  [[menu.main]]
+    identifier = "series"
+    name = "Lesson Series"
+    url = "/series/"
+    weight = 1
+
+# Enable markup options for KaTeX
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = true
+    noClasses = false
