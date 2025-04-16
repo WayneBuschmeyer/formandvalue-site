@@ -13,6 +13,9 @@
   background-color: #f3f5f7;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
 
+  padding: 2rem;
+    border-radius: 8px;
+
 }
 
 /* Dark mode overrides */
@@ -26,6 +29,9 @@
 {
   background-color: #1a1d23; 
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+
+    padding: 2rem;
+    border-radius: 8px;
 
 
 }
