@@ -1,13 +1,13 @@
 :root 
 {
-  --primary: #3a7ca5; /* A calm academic blue */
+  --primary: #3a7ca5; 
 }
 
 /* Light mode */
 .main 
 {
   background-color: #f3f5f7;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
 }
 
 /* Dark mode overrides */
@@ -17,9 +17,10 @@
 }
 
 .dark .main {
-  background-color: #1a1d23; /* slightly lighter than the body */
+  background-color: #1a1d23; 
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
 }
+
 
 :root .main hr,
 .dark .main hr 
