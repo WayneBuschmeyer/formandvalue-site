@@ -1,44 +1,37 @@
-
-
-:root 
-{
-  --primary: #3a7ca5; 
-  --main-width: 110ch;
-}
-
-
-/* Light mode */
-.main 
-{
-  background-color: #f3f5f7;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
-padding: 2.5rem;
-
-
-}
-
-/* Dark mode overrides */
-.dark 
-{
+:root {
   --primary: #3a7ca5;
-  --main-width: 110ch;
+  /* Set the main-width to scale between 60 and 110 characters, but also use a viewport-relative value */
+  --main-width: clamp(60ch, 90%, 110ch);
+  /* Light mode background for main content */
+  --light-bg: #f3f5f7;
+  /* Dark mode background for main content */
+  --dark-bg: #1a1d23;
+  /* Responsive padding: grows between 1.5rem and 2.5rem based on viewport width */
+  --padding: clamp(1.5rem, 4vw, 2.5rem);
 }
 
-.dark .main 
-{
-  background-color: #1a1d23; 
+/* Main content container styling */
+.main {
+  max-inline-size: var(--main-width);
+  margin-left: auto;
+  margin-right: auto;
+  background-color: var(--light-bg);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  padding: var(--padding);
+}
+
+/* Dark mode overrides for main content */
+.dark .main {
+  background-color: var(--dark-bg);
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
-
-padding: 2.5rem;
+  padding: var(--padding);
 }
 
-
+/* Styling for horizontal rules inside the main content */
 :root .main hr,
-.dark .main hr 
-{
+.dark .main hr {
   border: none;
   height: 1px;
-  background: linear-gradient(to right, transparent, #3a7ca5, transparent);
+  background: linear-gradient(to right, transparent, var(--primary), transparent);
   margin: 2rem 0;
 }
-
