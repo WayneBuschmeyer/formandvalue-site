@@ -13,6 +13,10 @@ theme = "PaperMod"
   ShowCodeCopyButtons = true
   homeInfoParams = { Title = "Form and Value", Content = "Mathematics as structure, movement, and meaning. Essays that unfold from intuition to abstraction." }
 
+    [params.assets]
+    css = ["css/custom.css"]
+
+
 # Menu configuration
 [menu]
   [[menu.main]]
