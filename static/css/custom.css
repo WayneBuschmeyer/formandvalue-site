@@ -5,8 +5,6 @@
 /* Light mode */
 .main {
   background-color: #f9f9f9; /* soft light gray */
-  border-radius: 6px;
-  padding: 2rem;
 }
 
 /* Dark mode overrides */
