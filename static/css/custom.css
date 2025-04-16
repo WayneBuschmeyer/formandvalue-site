@@ -22,6 +22,7 @@
 
 /* Dark mode overrides for main content */
 .dark .main {
+  --primary: #3a7ca5;
   background-color: var(--dark-bg);
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
   padding: var(--padding);
