@@ -1,12 +1,12 @@
 :root {
-  --primary: #3a7ca5; /* A calm academic blue */
-  --secondary: #f4f4f4;
-  --background: #1e1e1e;
+  --primary: #3a7ca5 !important; /* A calm academic blue */
+  --secondary: #f4f4f4 !important;
+  --background: #1e1e1e !important;
 }
 
 hr {
-  border: none;
-  height: 1px;
-  background: linear-gradient(to right, transparent, #555, transparent);
-  margin: 2rem 0;
+  border: none !important;
+  height: 1px !important;
+  background: linear-gradient(to right, transparent, #555, transparent) !important;
+  margin: 2rem 0 !important;
 }
