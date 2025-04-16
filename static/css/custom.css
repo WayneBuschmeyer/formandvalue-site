@@ -3,6 +3,7 @@
 :root 
 {
   --primary: #3a7ca5; 
+  --main-width: 90ch;
 }
 
 
@@ -12,15 +13,13 @@
   background-color: #f3f5f7;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
 
-  width: 90vw;
-  margin: 0 auto;
-  padding: 2rem;
 }
 
 /* Dark mode overrides */
 .dark 
 {
   --primary: #3a7ca5;
+  --main-width: 90ch;
 }
 
 .dark .main 
@@ -28,9 +27,7 @@
   background-color: #1a1d23; 
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
 
-  width: 90vw;
-  margin: 0 auto;
-  padding: 2rem;
+
 }
 
 
