@@ -1,6 +1,14 @@
+
+
 :root 
 {
   --primary: #3a7ca5; 
+}
+
+/* PaperMod container override */
+.container {
+  width: 90%;
+  margin: auto;
 }
 
 /* Light mode */
