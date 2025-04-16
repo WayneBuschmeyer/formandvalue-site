@@ -4,6 +4,17 @@
   --background: #1e1e1e !important;
 }
 
+/* Dark mode overrides */
+.dark {
+  --primary: #3a7ca5;
+  --secondary: #1e1e1e;
+  --background: #1e1e1e;
+  --content: #dddddd;
+  --code-block-bg: #101010;
+  --code-bg: #151515;
+  --border: #3a7ca5;
+}
+
 hr {
   border: none !important;
   height: 1px !important;
