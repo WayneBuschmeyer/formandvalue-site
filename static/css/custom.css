@@ -1,10 +1,10 @@
 :root {
-  --primary: #3a7ca5; /* A calm academic blue */
+  --primary: #3a7ca5 !important; /* A calm academic blue */
 }
 
 /* Dark mode overrides */
 .dark {
-  --primary: #3a7ca5;
+  --primary: #3a7ca5 !important;
   --secondary: #1e1e1e;
   --background: #1e1e1e;
   --content: #dddddd;
