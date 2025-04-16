@@ -30,7 +30,7 @@ body {
 /* ---------- Main Content Layout ---------- */
 .main {
   margin-inline: auto;
-  max-inline-size: 90ch;
+  max-inline-size: 120ch;
 
   padding-inline: clamp(1rem, 8vw, 10vw);
   padding-block: clamp(2rem, 4vh, 6rem);
@@ -40,7 +40,6 @@ body {
 }
 
 .dark .main {
-  background-color: var(--secondary);
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
 }
 
