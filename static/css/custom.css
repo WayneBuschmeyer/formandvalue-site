@@ -21,7 +21,6 @@
 body {
   font-family: "Book Antiqua", Garamond, serif;
   background-color: var(--background);
-  color: var(--content);
   line-height: 1.7;
   margin: 0;
   padding: 0;
@@ -49,4 +48,17 @@ body {
   height: 1px;
   background: linear-gradient(to right, transparent, var(--primary), transparent);
   margin: 2.5rem 0;
+}
+
+.post-nav {
+  background: linear-gradient(
+    135deg,
+    rgba(58, 124, 165, 0.08) 0%,
+    rgba(58, 124, 165, 0.15) 100%
+  );
+  border: 1px solid var(--primary);
+  border-radius: 0.5rem;
+  padding: 1.5rem 2rem;
+  margin-block: 2rem;
+  transition: background 0.3s ease;
 }
