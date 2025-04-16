@@ -1,0 +1,12 @@
+:root {
+  --primary: #3a7ca5; /* A calm academic blue */
+  --secondary: #f4f4f4;
+  --background: #1e1e1e;
+}
+
+hr {
+  border: none;
+  height: 1px;
+  background: linear-gradient(to right, transparent, #555, transparent);
+  margin: 2rem 0;
+}
