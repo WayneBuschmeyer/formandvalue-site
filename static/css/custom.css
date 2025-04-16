@@ -2,9 +2,20 @@
   --primary: #3a7ca5; /* A calm academic blue */
 }
 
+/* Light mode */
+.main {
+  background-color: #f9f9f9; /* soft light gray */
+  border-radius: 6px;
+  padding: 2rem;
+}
+
 /* Dark mode overrides */
 .dark {
   --primary: #3a7ca5;
+}
+
+.dark .main {
+  background-color: #232323; /* slightly lighter than the body */
 }
 
 :root .main hr,
