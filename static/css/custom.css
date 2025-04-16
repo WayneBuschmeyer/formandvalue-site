@@ -1,14 +1,17 @@
-:root {
-  --primary: #eaeaea; /* A calm academic blue */
+:root 
+{
+  --primary: #3a7ca5; /* A calm academic blue */
 }
 
 /* Light mode */
-.main {
-  background-color: #fdfdf6;
+.main 
+{
+  background-color: #eaeaea;
 }
 
 /* Dark mode overrides */
-.dark {
+.dark 
+{
   --primary: #3a7ca5;
 }
 
@@ -17,7 +20,8 @@
 }
 
 :root .main hr,
-.dark .main hr {
+.dark .main hr 
+{
   border: none;
   height: 1px;
   background: linear-gradient(to right, transparent, #3a7ca5, transparent);
