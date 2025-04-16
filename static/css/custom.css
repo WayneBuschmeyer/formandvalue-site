@@ -15,9 +15,11 @@
   --border: #3a7ca5;
 }
 
-hr {
+:root .main hr,
+.dark .main hr {
   border: none;
   height: 1px;
-  background: linear-gradient(to right, transparent, #555, transparent);
+  background: linear-gradient(to right, transparent, #3a7ca5, transparent);
   margin: 2rem 0;
 }
+
