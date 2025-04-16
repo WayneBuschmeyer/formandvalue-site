@@ -3,7 +3,7 @@
 :root 
 {
   --primary: #3a7ca5; 
-  --main-width: 90ch;
+  --main-width: 150ch;
 }
 
 
@@ -19,7 +19,7 @@
 .dark 
 {
   --primary: #3a7ca5;
-  --main-width: 90ch;
+  --main-width: 150ch;
 }
 
 .dark .main 
